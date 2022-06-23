@@ -5,7 +5,7 @@
 Source code for our work soon to be published at RA-L:
 
 ```
-@article{nunes2022ral-ucais,
+@article{nunes2022ral-3duis,
   author = {Lucas Nunes and Xieyuanli Chen and Rodrigo Marcuzzi and Aljosa Osep and Laura Leal-Taixé and Cyrill Stachniss and Jens Behley},
   title = {{Unsupervised Class-Agnostic Instance Segmentation of 3D LiDAR Data for Autonomous Vehicles}},
   journal = {IEEE Robotics and Automation Letters (RA-L)},
