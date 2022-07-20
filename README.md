@@ -9,7 +9,13 @@ Source code for our work soon to be published at RA-L:
   author = {Lucas Nunes and Xieyuanli Chen and Rodrigo Marcuzzi and Aljosa Osep and Laura Leal-Taixé and Cyrill Stachniss and Jens Behley},
   title = {{Unsupervised Class-Agnostic Instance Segmentation of 3D LiDAR Data for Autonomous Vehicles}},
   journal = {IEEE Robotics and Automation Letters (RA-L)},
-  year = 2022
+  year = 2022,
+  doi = {10.1109/LRA.2022.3187872}},
+  issn = {2377-3766},
+  volume = {7},
+  number = {4},
+  pages = {8713-8720},
+  url = {https://www.ipb.uni-bonn.de/pdfs/nunes2022ral-iros.pdf},
 }
 ```
 
