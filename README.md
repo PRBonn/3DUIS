@@ -3,11 +3,11 @@
 This repo contains the code for our [paper](https://www.ipb.uni-bonn.de/pdfs/nunes2022ral-iros.pdf): Unsupervised Class-Agnostic Instance
 Segmentation of 3D LiDAR Data for Autonomous Vehicles.
 
-Our approach uses a self-supervised pretrained network to extract point-wise features and use it to build graph representation of the point cloud,
+Our approach uses a self-supervised pretrained network to extract point-wise features and use it to build a graph representation of the point cloud,
 mapping the relation between each point and it's neighbors. Then, we apply GraphCut to divide each instance from the background, achieving class-agnostic
 instance segmentation in an unsupervised manner.
 
-Additionally we created a new benchmark for Open-World unknown instance segmentation based on SemanticKITTI [here](https://bit.ly/39VFTRD).
+Additionally we created a new benchmark for Open-World LiDAR instance segmentation based on SemanticKITTI [here](https://bit.ly/39VFTRD).
 
 ![Competition](pics/codalab.png)
 
