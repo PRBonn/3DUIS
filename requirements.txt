@@ -1,0 +1,6 @@
+open3d
+ninja
+torch==1.9.0
+hdbscan
+networkx
+click

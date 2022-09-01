@@ -1,0 +1,32 @@
+experiment:
+  id: 3DUIS
+  output_dir: ./output
+  dump_pred: True
+
+model:
+  backbone: MinkUNet
+  checkpoint: checkpoints/lastepoch199_model_segment_contrast.pt
+  checkpoint_key: model
+
+data:
+  dataset: SemanticKITTI
+  path: ./Datasets/SemanticKITTI
+  split: validation
+
+graphcut:
+  roi_size: 20.
+  source_sampling: saliency
+  source_factor: 2
+  sink_factor: 2
+  lambda: .1
+  omega: 10.
+  sigma: 1.
+  similarity_func: manhattan
+  k_neighbors: 8
+  visualization: False
+  ground_remove:
+    seed_sampling: False
+    instance_assign: False
+
+visualization:
+  instance_labels: gt
