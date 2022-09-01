@@ -1,6 +1,6 @@
 # 3DUIS: 3D Unsupervised Instance Segmentation
 
-This repo containes the code for our **[paper](https://www.ipb.uni-bonn.de/pdfs/nunes2022ral-iros.pdf)**: Unsupervised Class-Agnostic Instance
+This repo containes the code for our [paper](https://www.ipb.uni-bonn.de/pdfs/nunes2022ral-iros.pdf): Unsupervised Class-Agnostic Instance
 Segmentation of 3D LiDAR Data for Autonomous Vehicles.
 
 Our approach uses a self-supervised pretrained network to extract point-wise features and use it to build graph representation of the point cloud,
@@ -25,7 +25,7 @@ Additionally we created a new benchmark for Open-World unknown instance segmenta
 
 ## Publication
 
-If you use this repo, please cite as :
+If you use our code and benchmark, please cite the correspondig papers:
 
 ```
 @article{nunes2022ral,
