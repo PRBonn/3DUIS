@@ -7,7 +7,7 @@ Our approach uses a self-supervised pretrained network to extract point-wise fea
 mapping the relation between each point and it's neighbors. Then, we apply GraphCut to divide each instance from the background, achieving class-agnostic
 instance segmentation in an unsupervised manner.
 
-Additionally we created a new benchmark for Open-World LiDAR instance segmentation based on SemanticKITTI [here](https://bit.ly/39VFTRD).
+Additionally, we created a new benchmark for Open-World LiDAR instance segmentation based on SemanticKITTI [here](https://bit.ly/39VFTRD).
 
 ![Competition](pics/codalab.png)
 
@@ -94,7 +94,7 @@ Download [SemanticKITTI](http://www.semantic-kitti.org/dataset.html#download) in
                 └── ...
 ```
 
-For the unsupervised ground segmentation you need to run [patchwork](https://github.com/LimHyungTae/patchwork) over the SemanticKITTI dataset and put the generated files over:
+For the unsupervised ground segmentation, you need to run [patchwork](https://github.com/LimHyungTae/patchwork) over the SemanticKITTI dataset and put the generated files over:
 ```
 ./
 └── Datasets/
