@@ -3,6 +3,7 @@ import os
 
 data_dir = './outputs/3DUIS/'
 output_dir = './outputs/3DUIS_/'
+os.makedirs(output_dir, exist_ok=True)
 for i, fname in enumerate(sorted(os.listdir(data_dir))):
     pred = np.load(os.path.join(data_dir,fname))
     output_fname = os.path.join(output_dir, fname.split('.')[0].zfill(6) + '.label')
