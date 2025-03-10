@@ -1,8 +1,8 @@
 import numpy as np
 import os
 
-data_dir = '/media/lucas/PhData/InstanceSegSSL/SSL_graphcut_instance_segmentation_validation/08/raw_pred'
-output_dir = './pred_eval/sequences/08/predictions/'
+data_dir = './outputs/3DUIS/'
+output_dir = './outputs/3DUIS_/'
 for i, fname in enumerate(sorted(os.listdir(data_dir))):
     pred = np.load(os.path.join(data_dir,fname))
     output_fname = os.path.join(output_dir, fname.split('.')[0].zfill(6) + '.label')
