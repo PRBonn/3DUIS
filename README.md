@@ -7,7 +7,7 @@ Our approach uses a self-supervised pretrained network to extract point-wise fea
 mapping the relation between each point and it's neighbors. Then, we apply GraphCut to divide each instance from the background, achieving class-agnostic
 instance segmentation in an unsupervised manner.
 
-Additionally, we created a new benchmark for Open-World LiDAR instance segmentation based on SemanticKITTI [here](https://bit.ly/39VFTRD).
+Additionally, we created a new benchmark for Open-World LiDAR instance segmentation based on SemanticKITTI [here](https://www.ipb.uni-bonn.de/html/projects/3DUIS/3duis-benchmark).
 
 ![Competition](pics/codalab.png)
 
